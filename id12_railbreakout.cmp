@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Saturday, 2013 September 21 11:09:50
+
+BeginCmp
+TimeStamp = /5230AA77;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = c-smd-5mmx6.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5230AA86;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523D63AA;
+Reference = C3;
+ValeurCmp = CAPAPOL;
+IdModule  = c-smd-5mmx6.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /523D61A8;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523D61F8;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4385;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /523C4394;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /523D61CB;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523D61E9;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5230AA68;
+Reference = U1;
+ValeurCmp = LM1117;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FF982;
+Reference = U2;
+ValeurCmp = ID-12;
+IdModule  = RFID_ID12;
+EndCmp
+
+EndListe
