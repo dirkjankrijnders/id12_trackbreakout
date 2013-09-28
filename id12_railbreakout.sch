@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Saturday, 2013 September 21 11:17:38
+EESchema Schematic File Version 2  date Sunday, 2013 September 22 20:30:23
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PS21: ID-12 connection board"
-Date "21 sep 2013"
+Date "22 sep 2013"
 Rev "1"
 Comp "PythSoft"
 Comment1 ""
@@ -197,19 +197,8 @@ F 3 "" H 7600 2550 60  0001 C CNN
 	1    7600 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_4 P1
-U 1 1 523C4394
-P 7800 4000
-F 0 "P1" V 7750 4000 50  0000 C CNN
-F 1 "CONN_4" V 7850 4000 50  0000 C CNN
-F 2 "" H 7800 4000 60  0001 C CNN
-F 3 "" H 7800 4000 60  0001 C CNN
-	1    7800 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7450 3000 7450 3300
+	7450 3300 7450 3000
 Wire Wire Line
 	7050 3300 7650 3300
 Wire Wire Line
@@ -221,7 +210,7 @@ Wire Wire Line
 	7250 3150 7250 3000
 Connection ~ 6300 3150
 Wire Wire Line
-	7350 3000 7350 3250
+	7350 3250 7350 3000
 Wire Wire Line
 	6250 3550 7050 3550
 Connection ~ 7050 3550
@@ -252,9 +241,7 @@ F 3 "" H 7050 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3950 7050 4150
-Wire Wire Line
-	7050 4150 7450 4150
+	7050 3950 7050 4250
 $Comp
 L VSS #PWR08
 U 1 1 523C59EA
@@ -362,4 +349,26 @@ Wire Wire Line
 Connection ~ 4750 2700
 Wire Wire Line
 	5100 2100 5100 2150
+$Comp
+L CONN_5 P1
+U 1 1 523F3514
+P 7850 4050
+F 0 "P1" V 7800 4050 50  0000 C CNN
+F 1 "CONN_5" V 7900 4050 50  0000 C CNN
+F 2 "" H 7850 4050 60  0000 C CNN
+F 3 "" H 7850 4050 60  0000 C CNN
+	1    7850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4250 7450 4250
+Wire Wire Line
+	6250 3350 7550 3350
+Wire Wire Line
+	7550 3350 7550 3000
+Wire Wire Line
+	7150 3350 7150 4150
+Wire Wire Line
+	7150 4150 7450 4150
+Connection ~ 7150 3350
 $EndSCHEMATC

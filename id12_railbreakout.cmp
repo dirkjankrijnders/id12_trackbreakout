@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Saturday, 2013 September 21 11:09:50
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Sunday, 2013 September 22 20:30:37
 
 BeginCmp
 TimeStamp = /5230AA77;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = c-smd-5mmx6.1mm;
+IdModule  = c-smd-8mmx10.5mm;
 EndCmp
 
 BeginCmp
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /523D63AA;
 Reference = C3;
 ValeurCmp = CAPAPOL;
-IdModule  = c-smd-5mmx6.1mm;
+IdModule  = c-smd-8mmx10.5mm;
 EndCmp
 
 BeginCmp
@@ -43,10 +43,10 @@ IdModule  = RJ45_8;
 EndCmp
 
 BeginCmp
-TimeStamp = /523C4394;
+TimeStamp = /523F3514;
 Reference = P1;
-ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
 EndCmp
 
 BeginCmp
